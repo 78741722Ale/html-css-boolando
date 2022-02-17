@@ -1,0 +1,79 @@
+/* Palette colori analizzata con Figma
+*********/
+
+:root{
+  --bodycolor : rgb(255, 255, 255);
+  --MContainer : rgba(255, 255, 255.0,1);
+  --SContainer : #00875A;
+  --SalesColor : #EB0037;
+  --Sostenibility-Color : #00875A;
+ }
+ 
+ /* Colore principale del Body
+ ***********/
+
+ body {
+   background-color: var(--bodycolor);
+   text-align:center;
+ }
+ 
+ /* MContainer = Main Container
+ tocca solo la Width quando serve
+ ***********/
+
+ .MContainer {
+   Position:relative;
+   border-radius:30px;
+   padding: 20px;
+   width:max-content;
+   height:max-content;
+   background-color: var(--MContainer);
+   margin: auto;
+   margin-top:15px;
+   margin-bottom:15px;
+ }
+
+ /* Container Principale del Main   
+*******************/
+ 
+.D2Container .DContainer,img {
+  width: 500px;
+  height: 700px;
+}
+
+.D2Container {
+  position:relative;
+  width:max-content;
+  height:max-content;
+  margin-top:5px;
+  margin-bottom:20px;
+  padding:10px;
+  border-radius:10px;
+  background-color: var(--DContainer);
+}
+
+.DContainer {
+  position:relative;
+  width:max-content;
+  height:max-content;
+  margin-top:20px;
+  margin-bottom:20px;
+  padding:10px;
+  border-radius:10px;
+  background-color: var(--DContainer);
+}
+
+/* Container Della Section 
+*******************/
+
+.SContainer{
+display:inline-block;
+justify-content: center;
+text-align:center;
+width:max-content;
+height:max-content;
+Position: flex;
+padding:5px;
+margin:10px;
+background-color: var(--SContainer)
+}
