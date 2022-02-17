@@ -14,6 +14,24 @@
  
  /* Classi di utilities */
 
+ /* Immagine nascosta
+ ******/
+
+ .Himg {
+  display:inline-block;
+  justify-content: center;
+  text-align:center;
+  Position: relative;
+  margin-top: 10px;
+  margin:3px;
+  text-align: center;
+  visibility: hidden;
+ }
+
+ .SContainer:hover .Himg {
+  visibility: visible;
+}
+
  /* Regola di Reset del Body */
 
  * {
@@ -28,7 +46,6 @@
    background-color: var(--bodycolor);
    text-align:center;
  }
-
 
  /* MContainer = Main Container
  tocca solo la Width quando serve
@@ -110,6 +127,7 @@ background-color: var(--SContainer)
 /* Classi delle marche e Stili e Prezzi associati */  
 
 .Litte {
+  font-weight: 100;
   font-size: 10px;
   text-align: left;
 }
@@ -124,9 +142,6 @@ background-color: var(--SContainer)
   color: var(--SalesColor);
   text-align: left;
 }
-
-
-
 
 /* Classe dei Like */
 
