@@ -37,13 +37,13 @@
  .MContainer {
    Position:relative;
    border-radius:30px;
-   padding-bottom: 20px;
+   padding-bottom: 30px;
    width:max-content;
    height:max-content;
    background-color: var(--MContainer);
    margin: auto;
-   margin-top:15px;
-   margin-bottom:15px;
+   margin-top:25px;
+   margin-bottom:25px;
  }
 
  /* Container Principale del Main   
@@ -60,6 +60,7 @@
   height:max-content;
   margin-top:20px;
   margin-bottom:20px;
+  padding-bottom: 15px;
   padding:10px;
   border-radius:10px;
   background-color: var(--DContainer);
@@ -69,7 +70,7 @@
   position:relative;
   width:max-content;
   height:max-content;
-  margin-top:5px;
+  margin-top:30px;
   margin-bottom:20px;
   padding:10px;
   border-radius:10px;
@@ -86,6 +87,7 @@ text-align:center;
 width:max-content;
 height:max-content;
 Position: relative;
+margin-top: 10px;
 margin:3px;
 background-color: var(--SContainer)
 }
@@ -97,6 +99,7 @@ background-color: var(--SContainer)
   position:absolute;
   display:inline-block;
   text-align:left;
+  padding-top: 5px;
   width:350px;
   height: max-content;
   top:500px;
@@ -104,7 +107,24 @@ background-color: var(--SContainer)
   background-color: #ffffff;
   }
 
-  
+/* Classi delle marche e Stili e Prezzi associati */  
+
+.Litte {
+  font-size: 10px;
+  text-align: left;
+}
+
+.Medium {
+  text-transform: uppercase;
+  font-size: larger ;
+}
+
+.Price {
+  font-size: 16px;
+  color: var(--SalesColor);
+  text-align: left;
+}
+
 
 
 
