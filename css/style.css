@@ -14,17 +14,6 @@
  
  /* Classi di utilities */
 
- /* Immagine nascosta
- ******/
-
- .Himg {
-  visibility: hidden;
- }
-
- .SContainer:hover .Himg {
-  visibility: visible;
-}
-
  /* Regola di Reset del Body */
 
  * {
@@ -43,6 +32,17 @@
  /* MContainer = Main Container
  tocca solo la Width quando serve
  ***********/
+
+  /* Classe per l'immagine nascosta
+ ******/
+
+ .HContainer {
+  visibility: hidden;
+ }
+
+ .SContainer:hover .HContainer {
+  visibility: visible;
+}
 
  .MContainer {
    Position:relative;
@@ -116,6 +116,22 @@ background-color: var(--SContainer)
   left:0;
   background-color: #ffffff;
   }
+
+/* Classe di immagini nascoste 
+*********/
+
+.HContainer {
+  position:absolute;
+  display:inline-block;
+  text-align:left;
+  padding-top: 5px;
+  width:350px;
+  height: max-content;
+  top:0px;
+  left:0px;
+  visibility: hidden;
+  }
+
 
 /* Classi delle marche e Stili e Prezzi associati */  
 
